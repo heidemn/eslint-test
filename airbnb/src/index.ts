@@ -1,8 +1,7 @@
 import * as fs from 'fs';
 
 async function main() {
-  // error
-  // fs.promises.readFile('/etc/passwd');
+  // fs.promises.readFile('/etc/passwd'); // error
   await fs.promises.readFile('/etc/passwd');
 }
 
